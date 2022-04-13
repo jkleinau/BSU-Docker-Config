@@ -2,7 +2,7 @@ version: '3'
 services:
   node:
     restart: always
-    build: .
+    image: justuskl/bsumagicplan:latest
     environment:
       - DATABASE_URL=mongodb://mongo:27017/BSUMagicPlan
       - PORT=3000
